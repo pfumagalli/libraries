@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ivy-module version="2.0">
+
+  <info organisation="org.testng"
+        module="testng" 
+        revision="6.8.5"
+        status="release"
+        publication="20130513000000">
+
+    <license name="Apache Software License 2.0"
+             url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+
+    <description homepage="http://testng.org/doc/index.html">
+      TestNG is a testing framework inspired from JUnit and NUnit but introducing
+      some new functionalities that make it more powerful and easier to use.
+    </description>
+  </info>
+
+  <configurations>
+    <conf name="default" visibility="public"/>
+  </configurations>
+
+  <publications>
+    <artifact name="testng" type="bin" ext="jar" conf="default" url="http://repo1.maven.org/maven2/org/testng/testng/6.8.5/testng-6.8.5.jar"/>
+    <artifact name="testng" type="src" ext="zip" conf="default" url="http://repo1.maven.org/maven2/org/testng/testng/6.8.5/testng-6.8.5-sources.jar"/>
+    <artifact name="testng" type="doc" ext="zip" conf="default" url="http://repo1.maven.org/maven2/org/testng/testng/6.8.5/testng-6.8.5-javadoc.jar"/>
+  </publications>
+
+</ivy-module>
