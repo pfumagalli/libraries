@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ivy-module version="2.0">
+
+  <info organisation="com.google.inject"
+        module="guice" 
+        revision="3.0"
+        status="release"
+        publication="20110324000000">
+
+    <license name="Apache Software License 2.0"
+             url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+
+    <description homepage="https://code.google.com/p/google-guice/">
+      Google Guice is a dependency injection framework for the Java platform
+      released by Google. It provides support for dependency injection using
+      annotations to configure Java objects.
+    </description>
+  </info>
+
+  <configurations>
+    <conf name="default" visibility="public"/>
+  </configurations>
+
+  <publications>
+    <artifact name="guice" type="bin" ext="jar" conf="default" url="http://repo1.maven.org/maven2/com/google/inject/guice/3.0/guice-3.0.jar"/>
+    <artifact name="guice" type="src" ext="zip" conf="default" url="http://repo1.maven.org/maven2/com/google/inject/guice/3.0/guice-3.0-sources.jar"/>
+    <artifact name="guice" type="doc" ext="zip" conf="default" url="http://repo1.maven.org/maven2/com/google/inject/guice/3.0/guice-3.0-javadoc.jar"/>
+  </publications>
+
+  <dependencies>
+    <dependency org="javax.inject"    name="inject"      rev="1"   conf="default"/>
+    <dependency org="org.aopalliance" name="aopalliance" rev="1.0" conf="default"/>
+  </dependencies>
+
+</ivy-module>

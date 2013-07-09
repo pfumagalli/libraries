@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ivy-module version="2.0">
+
+  <info organisation="org.aopalliance"
+        module="aopalliance" 
+        revision="1.0"
+        status="release"
+        publication="20040322000000">
+
+    <license name="Apache Software License 2.0"
+             url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+
+    <description homepage="http://aopalliance.sourceforge.net/">
+      The AOP Alliance project is a joint open-source project between several
+      software engineering people who are interested in AOP and Java.
+    </description>
+  </info>
+
+  <configurations>
+    <conf name="default" visibility="public"/>
+  </configurations>
+
+  <publications>
+    <artifact name="inject" type="bin" ext="jar" conf="default" url="http://repo1.maven.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0.jar"/>
+    <artifact name="inject" type="doc" ext="zip" conf="default" url="http://repo1.maven.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0-sources.jar"/>
+  </publications>
+
+</ivy-module>
