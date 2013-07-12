@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ivy-module version="2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:noNamespaceSchemaLocation=
+                   "http://ant.apache.org/ivy/schemas/ivy.xsd">
+
+  <info organisation="org.glassfish"
+        module="grizzly" 
+        revision="2.3.3"
+        status="release"
+        publication="20130603184900">
+    <license name="Common Development and Distribution License 1.1"/>
+    <description homepage="https://grizzly.java.net/"/>
+  </info>
+
+  <configurations>
+    <conf name="framework"/>
+    <conf name="http"        extends="framework"/>
+    <conf name="http-server" extends="http"/>
+  </configurations>
+
+  <publications>
+    <artifact name="grizzly-framework"   type="bin" ext="jar" conf="framework"   url="http://repo1.maven.org/maven2/org/glassfish/grizzly/grizzly-framework/2.3.3/grizzly-framework-2.3.3.jar"/>
+    <artifact name="grizzly-framework"   type="src" ext="zip" conf="framework"   url="http://repo1.maven.org/maven2/org/glassfish/grizzly/grizzly-framework/2.3.3/grizzly-framework-2.3.3-sources.jar"/>
+    <artifact name="grizzly-framework"   type="doc" ext="zip" conf="framework"   url="http://repo1.maven.org/maven2/org/glassfish/grizzly/grizzly-framework/2.3.3/grizzly-framework-2.3.3-javadoc.jar"/>
+
+    <artifact name="grizzly-http"        type="bin" ext="jar" conf="http"        url="http://repo1.maven.org/maven2/org/glassfish/grizzly/grizzly-http/2.3.3/grizzly-http-2.3.3.jar"/>
+    <artifact name="grizzly-http"        type="src" ext="zip" conf="http"        url="http://repo1.maven.org/maven2/org/glassfish/grizzly/grizzly-http/2.3.3/grizzly-http-2.3.3-sources.jar"/>
+    <artifact name="grizzly-http"        type="doc" ext="zip" conf="http"        url="http://repo1.maven.org/maven2/org/glassfish/grizzly/grizzly-http/2.3.3/grizzly-http-2.3.3-javadoc.jar"/>
+
+    <artifact name="grizzly-http-server" type="bin" ext="jar" conf="http-server" url="http://repo1.maven.org/maven2/org/glassfish/grizzly/grizzly-http-server/2.3.3/grizzly-http-server-2.3.3.jar"/>
+    <artifact name="grizzly-http-server" type="src" ext="zip" conf="http-server" url="http://repo1.maven.org/maven2/org/glassfish/grizzly/grizzly-http-server/2.3.3/grizzly-http-server-2.3.3-sources.jar"/>
+    <artifact name="grizzly-http-server" type="doc" ext="zip" conf="http-server" url="http://repo1.maven.org/maven2/org/glassfish/grizzly/grizzly-http-server/2.3.3/grizzly-http-server-2.3.3-javadoc.jar"/>
+  </publications>
+
+</ivy-module>
