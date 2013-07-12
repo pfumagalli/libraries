@@ -7,13 +7,8 @@
         revision="1.2.17"
         status="release"
         publication="20120524193500">
-
-    <license name="Apache Software License 2.0"
-             url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
-
-    <description homepage="http://logging.apache.org/log4j/1.2/">
-      Apache log4j is a Java-based logging utility.
-    </description>
+    <license name="Apache Software License 2.0"/>
+    <description homepage="http://logging.apache.org/log4j/1.2/"/>
   </info>
 
   <configurations>

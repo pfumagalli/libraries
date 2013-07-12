@@ -7,14 +7,8 @@
         revision="1.0"
         status="release"
         publication="20040322000000">
-
-    <license name="Apache Software License 2.0"
-             url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
-
-    <description homepage="http://aopalliance.sourceforge.net/">
-      The AOP Alliance project is a joint open-source project between several
-      software engineering people who are interested in AOP and Java.
-    </description>
+    <license name="Public Domain"/>
+    <description homepage="http://aopalliance.sourceforge.net/"/>
   </info>
 
   <configurations>
