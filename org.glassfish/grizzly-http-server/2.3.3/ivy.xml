@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ivy-module version="2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:noNamespaceSchemaLocation=
+                   "http://ant.apache.org/ivy/schemas/ivy.xsd">
+
+  <info organisation="org.glassfish"
+        module="grizzly-http-server" 
+        revision="2.3.3"
+        status="release"
+        publication="20130603184900">
+    <license name="Common Development and Distribution License 1.1"/>
+    <description homepage="https://grizzly.java.net/"/>
+  </info>
+
+  <configurations>
+    <conf name="default"/>
+  </configurations>
+
+  <publications>
+    <artifact name="grizzly-http-server" type="bin" ext="jar" conf="default" url="http://repo1.maven.org/maven2/org/glassfish/grizzly/grizzly-http-server/2.3.3/grizzly-http-server-2.3.3.jar"/>
+    <artifact name="grizzly-http-server" type="src" ext="zip" conf="default" url="http://repo1.maven.org/maven2/org/glassfish/grizzly/grizzly-http-server/2.3.3/grizzly-http-server-2.3.3-sources.jar"/>
+    <artifact name="grizzly-http-server" type="doc" ext="zip" conf="default" url="http://repo1.maven.org/maven2/org/glassfish/grizzly/grizzly-http-server/2.3.3/grizzly-http-server-2.3.3-javadoc.jar"/>
+  </publications>
+
+  <dependencies>
+    <dependency org="org.glassfish" name="grizzly-framework" rev="2.3.3" conf="default"/>
+    <dependency org="org.glassfish" name="grizzly-http"      rev="2.3.3" conf="default"/>
+  </dependencies>
+
+</ivy-module>

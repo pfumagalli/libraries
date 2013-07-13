@@ -2,9 +2,9 @@
 
 <ivy-module version="2.0">
 
-  <info organisation="javax.inject"
+  <info organisation="javax"
         module="inject" 
-        revision="1"
+        revision="1.0"
         status="release"
         publication="20091013000000">
     <license name="Apache Software License 2.0"/>

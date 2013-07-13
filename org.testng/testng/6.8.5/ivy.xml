@@ -7,14 +7,8 @@
         revision="6.8.5"
         status="release"
         publication="20130513000000">
-
-    <license name="Apache Software License 2.0"
-             url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
-
-    <description homepage="http://testng.org/doc/index.html">
-      TestNG is a testing framework inspired from JUnit and NUnit but introducing
-      some new functionalities that make it more powerful and easier to use.
-    </description>
+    <license name="Apache Software License 2.0"/>
+    <description homepage="http://testng.org/doc/index.html"/>
   </info>
 
   <configurations>
