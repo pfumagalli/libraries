@@ -5,8 +5,7 @@
             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
             xsi:noNamespaceSchemaLocation="http://ant.apache.org/ivy/schemas/ivy.xsd">
 
-  <info e:maven="junit#junit#4.10"
-        organisation="org.junit"
+  <info organisation="org.junit"
         module="junit"
         revision="4.10"
         publication="20110930041223"
@@ -20,6 +19,7 @@
       JUnit
     </description>
 
+    <e:maven id="junit#junit#4.10"/>
   </info>
 
   <configurations>

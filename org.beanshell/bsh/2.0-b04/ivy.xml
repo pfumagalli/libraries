@@ -5,8 +5,7 @@
             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
             xsi:noNamespaceSchemaLocation="http://ant.apache.org/ivy/schemas/ivy.xsd">
 
-  <info e:maven="org.beanshell#bsh#2.0b4"
-        organisation="org.beanshell"
+  <info organisation="org.beanshell"
         module="bsh"
         revision="2.0-b04"
         publication="20060526101005"
@@ -19,6 +18,7 @@
       BeanShell
     </description>
 
+    <e:maven id="org.beanshell#bsh#2.0b4"/>
   </info>
 
   <configurations>

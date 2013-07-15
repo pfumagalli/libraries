@@ -5,8 +5,7 @@
             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
             xsi:noNamespaceSchemaLocation="http://ant.apache.org/ivy/schemas/ivy.xsd">
 
-  <info e:maven="javax.annotation#javax.annotation-api#1.2"
-        organisation="javax"
+  <info organisation="javax"
         module="annotation"
         revision="1.2"
         publication="20130427023829"
@@ -20,6 +19,7 @@
       javax.annotation API
     </description>
 
+    <e:maven id="javax.annotation#javax.annotation-api#1.2"/>
   </info>
 
   <configurations>

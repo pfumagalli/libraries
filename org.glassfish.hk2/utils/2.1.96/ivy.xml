@@ -5,8 +5,7 @@
             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
             xsi:noNamespaceSchemaLocation="http://ant.apache.org/ivy/schemas/ivy.xsd">
 
-  <info e:maven="org.glassfish.hk2#hk2-utils#2.1.96"
-        organisation="org.glassfish.hk2"
+  <info organisation="org.glassfish.hk2"
         module="utils"
         revision="2.1.96"
         publication="20130524012007"
@@ -20,6 +19,7 @@
       HK2 Implementation Utilities
     </description>
 
+    <e:maven id="org.glassfish.hk2#hk2-utils#2.1.96"/>
   </info>
 
   <configurations>

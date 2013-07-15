@@ -5,8 +5,7 @@
             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
             xsi:noNamespaceSchemaLocation="http://ant.apache.org/ivy/schemas/ivy.xsd">
 
-  <info e:maven="org.glassfish.jersey.core#jersey-client#2.0"
-        organisation="org.glassfish.jersey"
+  <info organisation="org.glassfish.jersey"
         module="client"
         revision="2.0"
         publication="20130515030826"
@@ -20,6 +19,7 @@
       jersey-core-client
     </description>
 
+    <e:maven id="org.glassfish.jersey.core#jersey-client#2.0"/>
   </info>
 
   <configurations>

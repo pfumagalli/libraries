@@ -5,8 +5,7 @@
             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
             xsi:noNamespaceSchemaLocation="http://ant.apache.org/ivy/schemas/ivy.xsd">
 
-  <info e:maven="aopalliance#aopalliance#1.0"
-        organisation="org.aopalliance"
+  <info organisation="org.aopalliance"
         module="aopalliance"
         revision="1.0"
         publication="20070227074340"
@@ -19,6 +18,7 @@
       AOP alliance
     </description>
 
+    <e:maven id="aopalliance#aopalliance#1.0"/>
   </info>
 
   <configurations>

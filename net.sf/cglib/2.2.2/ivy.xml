@@ -5,8 +5,7 @@
             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
             xsi:noNamespaceSchemaLocation="http://ant.apache.org/ivy/schemas/ivy.xsd">
 
-  <info e:maven="cglib#cglib#2.2.2"
-        organisation="net.sf"
+  <info organisation="net.sf"
         module="cglib"
         revision="2.2.2"
         publication="20110510225413"
@@ -19,6 +18,7 @@
       Code Generation Library
     </description>
 
+    <e:maven id="cglib#cglib#2.2.2"/>
   </info>
 
   <configurations>

@@ -5,8 +5,7 @@
             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
             xsi:noNamespaceSchemaLocation="http://ant.apache.org/ivy/schemas/ivy.xsd">
 
-  <info e:maven="com.google.inject#guice#3.0"
-        organisation="com.google"
+  <info organisation="com.google"
         module="guice"
         revision="3.0"
         publication="20110326031947"
@@ -19,6 +18,7 @@
       Google Guice - Core Library
     </description>
 
+    <e:maven id="com.google.inject#guice#3.0"/>
   </info>
 
   <configurations>

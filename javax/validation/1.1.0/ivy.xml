@@ -5,8 +5,7 @@
             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
             xsi:noNamespaceSchemaLocation="http://ant.apache.org/ivy/schemas/ivy.xsd">
 
-  <info e:maven="javax.validation#validation-api#1.1.0.Final"
-        organisation="javax"
+  <info organisation="javax"
         module="validation"
         revision="1.1.0"
         publication="20130410220303"
@@ -19,6 +18,7 @@
       Bean Validation API
     </description>
 
+    <e:maven id="javax.validation#validation-api#1.1.0.Final"/>
   </info>
 
   <configurations>

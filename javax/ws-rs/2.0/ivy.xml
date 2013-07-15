@@ -5,8 +5,7 @@
             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
             xsi:noNamespaceSchemaLocation="http://ant.apache.org/ivy/schemas/ivy.xsd">
 
-  <info e:maven="javax.ws.rs#javax.ws.rs-api#2.0"
-        organisation="javax"
+  <info organisation="javax"
         module="ws-rs"
         revision="2.0"
         publication="20130503023920"
@@ -20,6 +19,7 @@
       javax.ws.rs-api
     </description>
 
+    <e:maven id="javax.ws.rs#javax.ws.rs-api#2.0"/>
   </info>
 
   <configurations>

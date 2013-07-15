@@ -5,8 +5,7 @@
             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
             xsi:noNamespaceSchemaLocation="http://ant.apache.org/ivy/schemas/ivy.xsd">
 
-  <info e:maven="com.google.guava#guava#14.0.1"
-        organisation="com.google"
+  <info organisation="com.google"
         module="guava"
         revision="14.0.1"
         publication="20130315085719"
@@ -19,6 +18,7 @@
       Guava: Google Core Libraries for Java
     </description>
 
+    <e:maven id="com.google.guava#guava#14.0.1"/>
   </info>
 
   <configurations>

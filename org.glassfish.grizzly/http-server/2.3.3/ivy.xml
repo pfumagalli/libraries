@@ -5,8 +5,7 @@
             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
             xsi:noNamespaceSchemaLocation="http://ant.apache.org/ivy/schemas/ivy.xsd">
 
-  <info e:maven="org.glassfish.grizzly#grizzly-http-server#2.3.3"
-        organisation="org.glassfish.grizzly"
+  <info organisation="org.glassfish.grizzly"
         module="http-server"
         revision="2.3.3"
         publication="20130604032542"
@@ -20,6 +19,7 @@
       grizzly-http-server
     </description>
 
+    <e:maven id="org.glassfish.grizzly#grizzly-http-server#2.3.3"/>
   </info>
 
   <configurations>

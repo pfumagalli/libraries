@@ -5,8 +5,7 @@
             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
             xsi:noNamespaceSchemaLocation="http://ant.apache.org/ivy/schemas/ivy.xsd">
 
-  <info e:maven="org.testng#testng#6.8.5"
-        organisation="org.testng"
+  <info organisation="org.testng"
         module="testng"
         revision="6.8.5"
         publication="20130514160855"
@@ -20,6 +19,7 @@
       TestNG
     </description>
 
+    <e:maven id="org.testng#testng#6.8.5"/>
   </info>
 
   <configurations>

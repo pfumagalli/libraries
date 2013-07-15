@@ -5,8 +5,7 @@
             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
             xsi:noNamespaceSchemaLocation="http://ant.apache.org/ivy/schemas/ivy.xsd">
 
-  <info e:maven="com.beust#jcommander#1.27"
-        organisation="com.beust"
+  <info organisation="com.beust"
         module="jcommander"
         revision="1.27"
         publication="20120706030702"
@@ -19,6 +18,7 @@
       JCommander
     </description>
 
+    <e:maven id="com.beust#jcommander#1.27"/>
   </info>
 
   <configurations>

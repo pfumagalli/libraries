@@ -5,8 +5,7 @@
             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
             xsi:noNamespaceSchemaLocation="http://ant.apache.org/ivy/schemas/ivy.xsd">
 
-  <info e:maven="org.yaml#snakeyaml#1.6"
-        organisation="org.yaml"
+  <info organisation="org.yaml"
         module="snakeyaml"
         revision="1.6"
         publication="20100308213443"
@@ -20,6 +19,7 @@
       SnakeYAML
     </description>
 
+    <e:maven id="org.yaml#snakeyaml#1.6"/>
   </info>
 
   <configurations>

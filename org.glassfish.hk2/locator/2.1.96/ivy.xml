@@ -5,8 +5,7 @@
             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
             xsi:noNamespaceSchemaLocation="http://ant.apache.org/ivy/schemas/ivy.xsd">
 
-  <info e:maven="org.glassfish.hk2#hk2-locator#2.1.96"
-        organisation="org.glassfish.hk2"
+  <info organisation="org.glassfish.hk2"
         module="locator"
         revision="2.1.96"
         publication="20130524013706"
@@ -20,6 +19,7 @@
       ServiceLocator Default Implementation
     </description>
 
+    <e:maven id="org.glassfish.hk2#hk2-locator#2.1.96"/>
   </info>
 
   <configurations>
