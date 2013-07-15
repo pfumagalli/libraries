@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ivy-module version="2.0"
+            xmlns:e="http://ant.apache.org/ivy/extra"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:noNamespaceSchemaLocation="http://ant.apache.org/ivy/schemas/ivy.xsd">
+
+  <info e:maven="org.beanshell#bsh#2.0b4"
+        organisation="org.beanshell"
+        module="bsh"
+        revision="2.0-b04"
+        publication="20060526101005"
+        status="release">
+
+    <license name="GNU Lesser General Public License"
+             url="http://www.gnu.org/licenses/lgpl.txt"/>
+
+    <description>
+      BeanShell
+    </description>
+
+  </info>
+
+  <configurations>
+    <conf name="default"/>
+  </configurations>
+
+  <publications>
+    <artifact name="bsh" type="bin" ext="jar" url="http://repo1.maven.org/maven2/org/beanshell/bsh/2.0b4/bsh-2.0b4.jar"/>
+  </publications>
+
+  <dependencies/>
+
+</ivy-module>
