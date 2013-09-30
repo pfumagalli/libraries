@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ivy-module version="2.0"
+            xmlns:e="http://ant.apache.org/ivy/extra"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:noNamespaceSchemaLocation="http://ant.apache.org/ivy/schemas/ivy.xsd">
+
+  <info organisation="org.json"
+        module="json"
+        revision="20090211"
+        publication="20090227033142"
+        status="release">
+
+    <license name="JSON License"
+             url="http://www.json.org/license.html"/>
+
+    <description homepage="http://www.json.org/java/index.html">
+      JSON (JavaScript Object Notation)
+    </description>
+
+    <e:maven id="org.json#json#20090211"/>
+  </info>
+
+  <configurations>
+    <conf name="default"/>
+  </configurations>
+
+  <publications>
+    <artifact name="json" type="bin" ext="jar" url="http://repo1.maven.org/maven2/org/json/json/20090211/json-20090211.jar"/>
+  </publications>
+
+  <dependencies/>
+
+</ivy-module>

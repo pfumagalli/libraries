@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ivy-module version="2.0"
+            xmlns:e="http://ant.apache.org/ivy/extra"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:noNamespaceSchemaLocation="http://ant.apache.org/ivy/schemas/ivy.xsd">
+
+  <info organisation="org.apache.httpcomponents"
+        module="httpcore"
+        revision="4.2.5"
+        publication="20130730001428"
+        status="release">
+
+    <!-- LICENSE.txt -->
+    <license name="Apache Software License, Version 2.0"
+             url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+
+    <description homepage="http://hc.apache.org/httpcomponents-core-ga">
+      Apache HttpCore
+    </description>
+
+    <e:maven id="org.apache.httpcomponents#httpcore#4.2.5"/>
+  </info>
+
+  <configurations>
+    <conf name="default"/>
+  </configurations>
+
+  <publications>
+    <artifact name="httpcore" type="bin" ext="jar" url="http://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.2.5/httpcore-4.2.5.jar"/>
+    <artifact name="httpcore" type="src" ext="zip" url="http://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.2.5/httpcore-4.2.5-sources.jar"/>
+    <artifact name="httpcore" type="doc" ext="zip" url="http://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.2.5/httpcore-4.2.5-javadoc.jar"/>
+  </publications>
+
+  <dependencies>
+    <!-- dependency maven="junit#junit" org="org.junit" name="junit" rev="4.10" conf="test" -->
+    <!-- dependency maven="org.mockito#mockito-core" conf="test" -->
+  </dependencies>
+
+</ivy-module>

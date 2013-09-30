@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ivy-module version="2.0"
+            xmlns:e="http://ant.apache.org/ivy/extra"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:noNamespaceSchemaLocation="http://ant.apache.org/ivy/schemas/ivy.xsd">
+
+  <info organisation="com.fasterxml.jackson"
+        module="datatype-joda"
+        revision="2.2.2"
+        publication="20130528104506"
+        status="release">
+
+    <license name="Apache Software License, Version 2.0"
+             url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+    <license name="GNU Lesser General Public License, Version 2.1"
+             url="http://www.gnu.org/licenses/lgpl-2.1.html"/>
+
+    <description homepage="http://wiki.fasterxml.com/JacksonModuleJoda">
+      Jackson-datatype-JODA
+    </description>
+
+    <e:maven id="com.fasterxml.jackson.datatype#jackson-datatype-joda#2.2.2"/>
+  </info>
+
+  <configurations>
+    <conf name="default"/>
+  </configurations>
+
+  <publications>
+    <artifact name="datatype-joda" type="bin" ext="jar" url="http://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-joda/2.2.2/jackson-datatype-joda-2.2.2.jar"/>
+    <artifact name="datatype-joda" type="src" ext="zip" url="http://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-joda/2.2.2/jackson-datatype-joda-2.2.2-sources.jar"/>
+    <artifact name="datatype-joda" type="doc" ext="zip" url="http://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-joda/2.2.2/jackson-datatype-joda-2.2.2-javadoc.jar"/>
+  </publications>
+
+  <dependencies>
+    <dependency org="com.fasterxml.jackson" name="core" rev="2.2.2"/> <!-- maven requested="com.fasterxml.jackson.core#jackson-core#2.2.2" -->
+    <dependency org="com.fasterxml.jackson" name="databind" rev="2.2.2"/> <!-- maven requested="com.fasterxml.jackson.core#jackson-databind#2.2.2" -->
+    <dependency org="org.joda" name="joda-time" rev="2.1"/> <!-- maven requested="joda-time#joda-time#2.1" -->
+
+    <!-- dependency maven="junit#junit#4.8.2" conf="test" -->
+  </dependencies>
+
+</ivy-module>
