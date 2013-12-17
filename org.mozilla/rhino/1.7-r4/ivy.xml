@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ivy-module version="2.0"
+            xmlns:e="http://ant.apache.org/ivy/extra"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:noNamespaceSchemaLocation="http://ant.apache.org/ivy/schemas/ivy.xsd">
+
+  <info organisation="org.mozilla"
+        module="rhino"
+        revision="1.7-r4"
+        publication="20120620190507"
+        status="release">
+
+    <!-- http://www.mozilla.org/MPL/2.0/index.txt -->
+    <license name="Mozilla Public License, Version 2.0"
+             url="http://www.mozilla.org/MPL/2.0/"/>
+
+    <description homepage="https://developer.mozilla.org/en/Rhino">
+      Mozilla Rhino
+    </description>
+
+    <e:maven id="org.mozilla#rhino#1.7R4"/>
+  </info>
+
+  <configurations>
+    <conf name="default"/>
+  </configurations>
+
+  <publications>
+    <artifact name="rhino" type="bin" ext="jar" url="http://repo1.maven.org/maven2/org/mozilla/rhino/1.7R4/rhino-1.7R4.jar"/>
+    <artifact name="rhino" type="src" ext="zip" url="http://repo1.maven.org/maven2/org/mozilla/rhino/1.7R4/rhino-1.7R4-sources.jar"/>
+    <artifact name="rhino" type="doc" ext="zip" url="http://repo1.maven.org/maven2/org/mozilla/rhino/1.7R4/rhino-1.7R4-javadoc.jar"/>
+  </publications>
+
+  <dependencies/>
+
+</ivy-module>
